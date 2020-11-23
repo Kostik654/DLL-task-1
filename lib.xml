@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lib</name>
+    </assembly>
+    <members>
+        <member name="T:lib.Plugin">
+            <summary>
+            Creates the new custom plugin
+            </summary>
+        </member>
+        <member name="M:lib.Plugin.#ctor(System.String,System.String,System.String,System.Drawing.Image)">
+            <summary>
+            Creates the new custom plugin
+            </summary>
+            <param name="nam">The Name.</param>
+            <param name="vers">The Version.</param>
+            <param name="disc">The Description.</param>
+            <param name="Img">The Image.</param>
+        </member>
+        <member name="P:lib.Plugin.PluginName">
+            <summary>
+            Plugin Name
+            </summary>
+        </member>
+        <member name="P:lib.Plugin.Version">
+            <summary>
+            Plugin Version
+            </summary>
+        </member>
+        <member name="P:lib.Plugin.Image">
+            <summary>
+            Plugin Image
+            </summary>
+        </member>
+        <member name="P:lib.Plugin.Description">
+            <summary>
+            Plugin Description
+            </summary>
+        </member>
+        <member name="M:lib.Plugin.Run(System.Int32,System.Int32,System.Char)">
+            <summary>
+            Performing a mathematical operation 
+            </summary>
+            <param name="input1">The First Int Value.</param>
+            <param name="input2">The Second Int Value.</param>
+            <param name="MathSigh">The operation.</param>
+            <returns>Result of math operation</returns>
+        </member>
+        <member name="T:lib.Plugins">
+            <summary>
+            Gets common information about created plugins.
+            </summary>
+        </member>
+        <member name="M:lib.Plugins.GetNames">
+            <summary>
+            Get all plugins names
+            </summary>
+        </member>
+        <member name="P:lib.Plugins.Count">
+            <summary>
+            Get the number of all plugins.
+            </summary>
+        </member>
+        <member name="M:lib.Plugins.GetPluginByName(System.String)">
+            <summary>
+            Get the plugin by its name
+            </summary>
+        </member>
+    </members>
+</doc>
